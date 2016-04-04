@@ -1,0 +1,11 @@
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\bin\Debug\Controle Lavanderia.exe
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\bin\Debug\Controle Lavanderia.pdb
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle Lavanderia.csprojResolveAssemblyReference.cache
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle_Lavanderia.MainForm.resources
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle_Lavanderia.Properties.Resources.resources
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle Lavanderia.csproj.GenerateResource.Cache
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle Lavanderia.exe
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle Lavanderia.pdb
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\obj\Debug\Controle_Lavanderia.Login.resources
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\bin\Debug\Controle Lavanderia.exe.config
+C:\Users\migue\OneDrive\Documentos\Visual Studio 2015\Projects\Controle Lavanderia\Controle Lavanderia\bin\Debug\Resources\Controlelavanderia.accdb
