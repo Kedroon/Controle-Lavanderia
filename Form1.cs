@@ -9,15 +9,18 @@ using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
-
+using System.Diagnostics;
 
 namespace ConsultaSiscomex
 {
     public partial class Form1 : Form
     {
+
+        int i;
         public Form1()
         {
             InitializeComponent();
+            i = 1;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -63,6 +66,101 @@ namespace ConsultaSiscomex
             fox.FindElementById("numfim").Clear();
             fox.FindElementById("numfim").SendKeys("2016/06110");
             fox.FindElementById("ContinueBtn").Click();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("http://portal.siscomex.gov.br/");
+            System.Threading.Thread.Sleep(200);
+           
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            navigateSuframa();
+        }
+
+        private void navigateSuframa()
+        {
+            if (webBrowser1.ReadyState !=
+            WebBrowserReadyState.Complete)
+                return; 
+
+            
+            
+            if (i == 1)
+            {
+                try
+                {
+                    HtmlElementCollection name = webBrowser1.Document.GetElementsByTagName("img");
+                    
+                    name[0].InvokeMember("Click");
+                    //SendKeys.SendWait("{TAB}");
+                    //SendKeys.SendWait("{ENTER}");
+                    System.Threading.Thread.Sleep(200);
+                    //SendKeys.SendWait("%{F4}");
+                    /*foreach (System.Diagnostics.Process myProc in System.Diagnostics.Process.GetProcesses())
+                    {
+                        if (myProc.ProcessName == "iexplore")
+                        {
+                            myProc.Kill();
+                        }
+                    }
+                    //            SendKeys.SendWait("{TAB}");
+                    */
+                    //HtmlElement test = webBrowser1.Document.GetElementById("tst");
+                    System.Threading.Thread.Sleep(2000);
+                    SendKeys.Send("{TAB}");
+                    System.Threading.Thread.Sleep(2000);
+                    SendKeys.Send("{TAB}");
+                    System.Threading.Thread.Sleep(200);
+                    SendKeys.Send("{TAB}");
+                    System.Threading.Thread.Sleep(200);
+                    SendKeys.Send("{ENTER}");
+
+
+                    //el.InvokeMember("Click");
+
+
+
+
+
+                    //   SendKeys.SendWait("04337168000148");
+                    //    SendKeys.SendWait("{TAB}");
+                    //   SendKeys.SendWait("Shda2016");
+                    //   SendKeys.SendWait("{TAB}");
+                    //   SendKeys.SendWait("{ENTER}");
+
+                }
+                catch (Exception err)
+                {
+
+                    MessageBox.Show(err.Message);
+                }
+                i = 2;
+            }
+                    
+            
+        }
+
+        private void webBrowser1_NewWindow(object sender, CancelEventArgs e)
+        {
+            webBrowser1.Navigate("https://www.siscomex.gov.br/vicomex/public/index.jsf");
+        }
+
+        private Process GetaProcess(string processname)
+        {
+            Process[] aProc = Process.GetProcessesByName(processname);
+
+            if (aProc.Length > 0)
+                return aProc[0];
+
+            else return null;
         }
     }
 }
