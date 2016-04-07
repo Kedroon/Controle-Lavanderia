@@ -1,0 +1,8 @@
+c:\users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\bin\Debug\TestCaptcha.exe.config
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\bin\Debug\TestCaptcha.exe
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\bin\Debug\TestCaptcha.pdb
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\bin\Debug\tessnet2_64.dll
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\bin\Debug\tessnet2_64.pdb
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\obj\Debug\TestCaptcha.csprojResolveAssemblyReference.cache
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\obj\Debug\TestCaptcha.exe
+C:\Users\migue\onedrive\documentos\visual studio 2015\Projects\TestCaptcha\TestCaptcha\obj\Debug\TestCaptcha.pdb
